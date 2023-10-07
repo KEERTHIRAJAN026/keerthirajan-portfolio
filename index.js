@@ -31,7 +31,7 @@ function showcontact(){
     $("#contact_container").addClass("animated slideInUp");
     setTimeout(function(){
         $("#contact_container").removeClass("animated slideInUp");
-    },800);
+    },700);
 }
 function closecontact(){
     $("#contact_container").addClass("animated slideOutDown");
@@ -68,3 +68,27 @@ function validateform()
     }
 
 }
+
+function sendMail(event) {
+    event.preventDefault();
+  
+    const message = encodeURIComponent(document.getElementById('message').value);
+    const email = 'rajankeerthi0261@gmail.com'; 
+    const email1 = encodeURIComponent(document.getElementById('email1').value);
+  
+    // Send the email using a third-party email service, such as Mailtrap or SendGrid.
+    // Here is an example of using Mailtrap:
+  
+    const mailtrapClient = new MailtrapClient({ token: 'YOUR_MAILTRAP_TOKEN' });
+  
+    mailtrapClient.send({
+      from: email1,
+      to: email,
+      subject: 'Message from your personal portfolio',
+      text: message,
+    }).then(() => {
+      // Email sent successfully!
+    }).catch((error) => {
+      // Something went wrong while sending the email.
+    });
+  }
