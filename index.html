@@ -26,10 +26,10 @@
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Projects</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>Keerthirajan</h1>
-        <h2>ML Enthusiast / Web Developer / Human</h2>
+        <h2>Programmar / Web Developer / Human</h2>
         <div id="menu">
             <a onclick="showabout()">about</a>
             <a onclick="showwork()">work</a>
@@ -48,16 +48,16 @@
         <h1 style="color:rgb(255, 50, 50);">Works</h1>
         <section>
             <h2>PROJECT INTERN, <in style="color:rgb(255, 50, 50);">TCS ION</in></h2>
-            <p>
-                • Developed a Deep learning model for automate detection of sentiments through textual feedbacks
+            <p style="text-align: justify;">
+                Developed a Real-time model for automate detection of sentiments through textual feedbacks on Twitter comments. Used Tweepy for extracting Real-time Data directly from Twitter. Integrated it with Flask Web App, where the user can give either "Hashtags" or "Username" as input and the model will give the sentimental feedback of how much it is Positive, Negative and Neutral.
             </p><br>
             <h2>DATA SCIENCE INTERN, <in style="color:rgb(255, 50, 50);">LETS GROW MORE</in></h2>
             <p>
-                • Did an Intermediate level project of Exploratory Data Analysis on Terrorism
+                Did an Intermediate level project of Exploratory Data Analysis on Terrorism data
             </p><br>
             <h2>WEB DEVELOPMENT INTERN, <in style="color:rgb(255, 50, 50);">THE SPARKS FOUNDATION</in></h2>
             <p>
-                • Developed a simple payment gateway website with modern JavaScript frameworks, HTML5 and CSS3.<br>
+                • Built a simple payment gateway website with modern JavaScript frameworks, HTML5 and CSS3.<br>
                 • Helped Co-members in the Organization on their projects
             </p>
         </section>
@@ -66,20 +66,15 @@
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
             <h1 style="color:rgb(255, 50, 50);">About</h1>
             <section>
-                <p>
-                    A passionate computer science student. My interest and love for programming and web designing has brought me here. I'd be delighted to work on problem solving and done several projects on web development and Machine Learning. Now I am pursuing what I dreamed of. Hardworking and driven to work quickly and effectively on 
-                    projects. Interested in doing Internships that offers professional challenges utilizing interpersonal skills, 
-                    excellent time management and problem-solving skills.
-                </p>
-                <p>
-                    Always open to work on web designing and 
-                    Machine Learning projects and improve skills on problem solving and to explore things and learn.! Currently I am pursuing my Bachelor degree in Computer Science Engineering.
+                <p style="text-align: justify;">
+                    Being a computer science enthusiast, I have always been fascinated by how these lines of code help solve problems and have a huge impact in every field of industry. Having been passionate about leveraging technology to drive significant impact, I have always been driven to the dynamic realms of software development and data analytics. I tend to improve my skills on problem solving in Leetcode and to explore things and learn. Did internships in different fields, like data analytics, web development, and machine learning. Always open to work in these areas and contribute to the tech landscape, by creating efficient software systems and make a meaningful impact. On this fascinating journey of innovation and growth, I will continue to pursue more !
                 </p>
                 <hr>
                 <h2 style="color:rgb(255, 50, 50);">Skills</h2>
                 <div id="used">
                     <div id="gap"><i class="fas fa-circle"; style="color:rgb(255, 50, 50);"></i>&nbsp;PROBLEM SOLVING</div>
-                    <div id="gap"><i class="fas fa-circle"; style="color:rgb(255, 50, 50);"></i>&nbsp;WEB DESIGNING</div>
+                    <div id="gap"><i class="fas fa-circle"; style="color:rgb(255, 50, 50);"></i>&nbsp;PROGRAMMING</div>
+                    <div id="gap"><i class="fas fa-circle"; style="color:rgb(255, 50, 50);"></i>&nbsp;WEB DEVELOPMENT</div>
                     <div id="gap"><i class="fas fa-circle"; style="color:rgb(255, 50, 50);"></i>&nbsp;MACHINE LEARNING</div>
                     <div id="gap"><i class="fas fa-circle"; style="color:rgb(255, 50, 50);"></i>&nbsp;TIME MANAGEMENT</div>
                     <div id="gap"><i class="fas fa-circle"; style="color:rgb(255, 50, 50);"></i>&nbsp;MULTI-TASKING</div>
@@ -88,24 +83,35 @@
         </div>
           <div id="contact_container" class="container">
             <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1 style="color:rgb(255, 50, 50);">Contact</h1>
+            <h1 style="color:rgb(255, 50, 50);">Personal Projects</h1>
             <section>
-                <p>
-                    <form>
-                        <input id ="pass1" type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="4"></textarea><br>
-                        <button class="btn_one" onclick="validateform()">send</button>
-                    </form> 
-                </p>
-              </section>
+                <h2 style="color:rgb(255, 50, 50);">Data-Driven Gastro Intestinal Tract Segmentation to Enhance Cancer Therapy</h2>
+            <p style="text-align: justify;">
+                • Gastro Intestinal tract segmentation plays a crucial role in medical imaging and analysis, with numerous applications in diagnosis, treatment planning, intervention guidance, and research. Accurate and robust segmentation of the gastrointestinal structures is essential for precise anatomical measurements, detection of abnormalities, and monitoring of disease progression.<br><br>
+                • The objective is to build a Deep Learning model to segment the GI Tract organs from Tumor in-order to give the correct dosage of medication. To build an end-to-end application, the model is integrated with Flask Web App. MRI Scan images are given as input and the model will process and segment it, then the segmented organs will be presented as output in image format.
+            </p><br>
+            <h2 style="color:rgb(255, 50, 50);">Efficient Water Quality Analysis and Prediction using Machine Learning</h2>
+            <p>
+                • Developed an ML model to analyze the quality of water by numerous factors such as ph value, turbidity, hardness, etc.<br>
+                • Used Flask for UI integration.<br>
+                • Deployed and hosted the end-to-end model in IBM cloud.
+            </p>
+            </section>
         </div>
         <div id="footer">
-            <td><i class="fas fa-phone"></i> &nbsp;(+91)9500525311</td><br>
-            <a href="mailto:keerthirajan19122001@gmail.com">mailtome</a>       
+            <td><i class="fas fa-phone"></i> &nbsp;(+91)9500525311</td><br><br>
+            <a href="mailto:keerthirajan19122001@gmail.com">keerthirajan19122001@gmail.com</a>       
         </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
+    <!--<p>
+        <form action="" method="post" onsubmit="sendMail(event)">
+            <input id ="pass1" type="text" placeholder="Name" required>
+            <input id="email1" type="email" placeholder="Your Email-id" required><br>
+            <textarea name="message" id="message" placeholder="Type your message here" required rows="4"></textarea><br>
+            <button class="btn_one" type="submit">Send</button>
+          </form>
+    </p>-->
 </body>
 </html>
