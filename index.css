@@ -25,8 +25,8 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid #fff;
-    border-bottom:12px solid black;
+    border:2px solid #fff;
+    border-bottom:2px solid black;
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(0, 0, 0);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(0, 0, 0);
     margin-left:-5px;
 }
 #menu {
@@ -164,6 +164,7 @@ body {
 .social:hover { 
     cursor: pointer;
     color:rgb(255, 50, 50);
+    font-size: 21px;
 }
 .container {
     width:90vw;
@@ -296,7 +297,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgb(248, 0, 0) ;
 }
 #particles-js {
     position:fixed;
